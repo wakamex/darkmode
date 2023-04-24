@@ -1,5 +1,7 @@
-import matplotlib as mpl
+"""Dark mode for matplotlib - orange version."""
 import shutil
+
+import matplotlib as mpl
 
 # Plotting defaults
 BLACK = "black"
