@@ -6,6 +6,9 @@ authors = [{ name = "Mihai Cosma", email = "mcosma@gmail.com" }]
 requires-python = ">=3.10"
 dependencies = ["matplotlib"]
 
+[tool.setuptools]
+py-modules = ["darkmode", "darkmode_orange"]
+
 [tool.pylint.format]
 max-line-length = "120"
 
