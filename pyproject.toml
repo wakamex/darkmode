@@ -1,5 +1,10 @@
 [project]
+name = "darkmode"
+version = "0.1.0"
+description = "Matplotlib dark mode styling"
 authors = [{ name = "Mihai Cosma", email = "mcosma@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = ["matplotlib"]
 
 [tool.pylint.format]
 max-line-length = "120"
